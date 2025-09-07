@@ -1,7 +1,13 @@
+<!-- TODO: 
+        2. Record video introducing self
+        4. Readme file
+        5. CSS -->
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>JasonDoria_Resume</title>
@@ -10,7 +16,7 @@
     <div class="header-container">
       <div class="header-top">
         <h1>Jason Doria</h1>
-        <img src="example.png" alt="profile picture" />
+        <img src="Jason.jpg" alt="profile picture" />
       </div>
       <div class="header-bottom">
         <p>
@@ -27,9 +33,7 @@
       </video>
     </div>
 
-    <div class="transcript">
-      <a href="Transcript.html">View Transcript</a>
-    </div>
+    <div class="transcript">View Transcript</div>
 
     <div class="section">
       <h2>Education</h2>
@@ -50,12 +54,31 @@
       <option value="prj2.html">Rainforest (E-commerce)</option>
     </select>
 
-    <script>
-      function redirectToPage() {
-        var selector = document.getElementById("pageSelector");
-        var selectedValue = selector.options[selector.selectedIndex].value;
-        window.location.href = selectedValue;
-      }
-    </script>
+    <iframe
+      src="https://www.google.com/maps?q=709+North+Abel+Street,+Milpitas,+CA&output=embed"
+      width="600"
+      height="450"
+      style="border: 0"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+    >
+    </iframe>
   </body>
 </html>
+
+<dialog id="dialog" closedby="any">
+  <form method="dialog">
+    <h1>Enter Password to View Transcript</h1>
+    <div>
+      <label for="password">Password</label>
+      <input type="text" id="password" name="password" required />
+
+      <br /><br />
+      <button type="submit" class="submit">Submit</button>
+      <button type="button" class="close">Cancel</button>
+    </div>
+  </form>
+</dialog>
+
+<output></output>
