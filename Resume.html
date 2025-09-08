@@ -13,57 +13,86 @@
     <title>JasonDoria_Resume</title>
   </head>
   <body>
-    <div class="header-container">
-      <div class="header-top">
-        <h1>Jason Doria</h1>
-        <img src="Jason.jpg" alt="profile picture" />
+    <div class="page">
+      <div class="header-container">
+        <div class="header-top">
+          <img src="Jason.jpg" alt="profile picture" />
+          <h1>Jason Doria</h1>
+        </div>
+        <div class="header-bottom">
+          <p>
+            Milpitas, CA | jason.doria@sjsu.edu | (408) 685-4468 |
+            <a
+              href="https://www.linkedin.com/in/jason-doria-250aa1298/"
+              target="blank"
+              >LinkedIn</a
+            >
+            | <a href="https://github.com/jdoria702" target="_blank">Github</a>
+          </p>
+        </div>
       </div>
-      <div class="header-bottom">
-        <p>
-          Milpitas, CA | jason.doria@sjsu.edu | (408) 685-4468 | LinkedIn |
-          Github
-        </p>
+
+      <hr />
+
+      <div class="video-container">
+        <h1>Video Introduction</h1>
+        <video width="320" height="240" controls>
+          <source src="example.mp4" type="video/mp4" />
+        </video>
+      </div>
+
+      <hr />
+
+      <div class="education">
+        <h1>Education</h1>
+        <div class="space-between bold">
+          <p>San Jose State University | San Jose, CA</p>
+          <p>Auguest 2023 - May 2026</p>
+        </div>
+        <div class="space-between">
+          <p>Computer Science (B.S)</p>
+          <p>GPA: 3.57</p>
+        </div>
+        <ul class="coursework">
+          <li>
+            <strong>Relevant Coursework:</strong>
+            Data Structures & Algorithms, Processing Big Data, Programming
+            Paradigms, Information Security, Intro to Database Management
+            Systems, Intro to Artificial Intelligence, Object-Oriented Design,
+            Computer Architecture, Operating Systems
+          </li>
+        </ul>
+        <div class="transcript">View Transcript</div>
+      </div>
+
+      <hr />
+
+      <div class="projects">
+        <h1>Projects</h1>
+        <label for="pageSelector">View my Projects: </label>
+        <select name="project" id="pageSelector" onchange="redirectToPage()">
+          <option value="">Select a Project</option>
+          <option value="prj1.html">Credit Card Fraud Detection</option>
+          <option value="prj2.html">Rainforest (E-commerce)</option>
+        </select>
+      </div>
+
+      <hr />
+
+      <div class="address">
+        <h1>Address</h1>
+        <iframe
+          src="https://www.google.com/maps?q=709+North+Abel+Street,+Milpitas,+CA&output=embed"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        >
+        </iframe>
       </div>
     </div>
-
-    <div class="video-container">
-      <h1>Video Introduction</h1>
-      <video width="320" height="240" controls>
-        <source src="example.mp4" type="video/mp4" />
-      </video>
-    </div>
-
-    <div class="transcript">View Transcript</div>
-
-    <div class="section">
-      <h2>Education</h2>
-      <div class="space-between bold">
-        <p>San Jose State University | San Jose, CA</p>
-        <p>Auguest 2023 - May 2026</p>
-      </div>
-      <div class="space-between">
-        <p>Computer Science (B.S)</p>
-        <p>GPA: 3.57</p>
-      </div>
-    </div>
-
-    <label for="pageSelector">View my Projects: </label>
-    <select name="project" id="pageSelector" onchange="redirectToPage()">
-      <option value="">Select a Project</option>
-      <option value="prj1.html">Credit Card Fraud Detection</option>
-      <option value="prj2.html">Rainforest (E-commerce)</option>
-    </select>
-
-    <iframe
-      src="https://www.google.com/maps?q=709+North+Abel+Street,+Milpitas,+CA&output=embed"
-      width="600"
-      height="450"
-      style="border: 0"
-      allowfullscreen=""
-      loading="lazy"
-      referrerpolicy="no-referrer-when-downgrade"
-    >
-    </iframe>
   </body>
 </html>
 
