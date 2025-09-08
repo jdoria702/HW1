@@ -7,7 +7,9 @@
 body {
   background-color: rgba(128, 128, 128, 0.212);
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   padding: 24px 0;
 }
 
@@ -64,17 +66,22 @@ hr {
 }
 
 .transcript {
+  display: inline-block;
   color: blue;
   text-decoration: underline;
   cursor: pointer;
 }
 
-.coursework {
+.indent {
   margin-left: 24px;
 }
 
 .projects {
   margin-top: 16px;
+}
+
+.right {
+  align-self: last baseline;
 }
 
 .address {
@@ -112,4 +119,21 @@ tr:nth-child(odd) td {
 
 caption {
   padding: 10px;
+}
+
+dialog {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  padding: 2rem;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  background: white;
+}
+
+dialog::backdrop {
+  background: rgba(0, 0, 0, 0.4);
 }
