@@ -1,4 +1,4 @@
-# CS160 - Homework 1: Resume
+# CS160 - Homework 1: Resume 📝
 
 My resume created in basic HTML/CSS/JavaScript
 
