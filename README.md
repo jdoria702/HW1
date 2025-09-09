@@ -1,3 +1,11 @@
-CS160 - Homework 1: Resume in HTML
+# CS160 - Homework 1: Resume
 
-Created a resume-like page in HTML showcasing video introduction, education, more information about self
+My resume created in basic HTML/CSS/JavaScript
+
+## Overview
+
+* Personal Information
+* Video Introduction
+* Education
+* Projects
+
