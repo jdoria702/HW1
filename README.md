@@ -9,3 +9,8 @@ My resume created in basic HTML/CSS/JavaScript
 * Education
 * Projects
 
+## How to View
+
+* Double-click Resume.html
+* Use Go Live (vscode extension)
+* Drag Resume.html on Google Chrome
